@@ -3,4 +3,22 @@ body {
   font-family: "Roboto Slab", serif;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDLHFDQUFBO0VBQ0EsaUNBQUE7QUNDRCIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.portfolio {
+  background-color: #f7f7f7;
+}
+
+.portfolio img {
+  width: 300px;
+  height: 300px;
+}
+
+.box {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 30px;
+  max-width: 300px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDLHFDQUFBO0VBQ0EsaUNBQUE7QUNDRDs7QURFQTtFQUNDLHlCQUFBO0FDQ0Q7O0FERUE7RUFDQyxZQUFBO0VBQ0EsYUFBQTtBQ0NEOztBREVBO0VBQ0MseUJBQUE7RUFDQSxhQUFBO0VBQ0Esc0JBQUE7RUFDQSxrQkFBQTtFQUNBLG1CQUFBO0VBQ0EsZ0JBQUE7QUNDRCIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
