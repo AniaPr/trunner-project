@@ -20,3 +20,25 @@ body {
 	margin-bottom: 30px;
 	max-width: 300px;
 }
+
+/*Footer*/
+
+footer ul {
+	padding-left: 0;
+}
+
+footer ul li {
+	display: inline;
+	font-size: 0;
+	margin: 3px;
+}
+
+footer ul i {
+	font-size: 16px;
+	background-color: #222222;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	line-height: 40px;
+}
