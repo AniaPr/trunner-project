@@ -1,7 +1,73 @@
 body {
 	font-family: "Montserrat", sans-serif;
-	font-family: "Roboto Slab", serif;
 }
+
+/*Header*/
+.splash {
+	background-image: url(https://i.postimg.cc/9Xbdtfzy/pexels-riya-kumari-2737702-1.jpg);
+	background-size: cover;
+	height: 700px;
+	padding: 30px;
+}
+
+.logo {
+	font-family: "Style Script", cursive;
+	color: #fed136;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+ul {
+	padding-left: 0;
+}
+
+.menu ul li {
+	text-transform: uppercase;
+	display: inline;
+	margin: 12px;
+}
+
+.menu ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.home {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 120px;
+}
+
+.button {
+	width: 240px;
+	height: 65px;
+	background-color: #fed136;
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	border-radius: 3%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 75px;
+	color: #ffffff;
+}
+
+.page-subtitle {
+	font-family: "IBM Plex Serif", serif;
+	color: #ffffff;
+	font-size: 40px;
+}
+
+/*Services*/
+
+/*Portfolio*/
 
 .portfolio {
 	background-color: #f7f7f7;
@@ -22,10 +88,6 @@ body {
 }
 
 /*Footer*/
-
-footer ul {
-	padding-left: 0;
-}
 
 footer ul li {
 	display: inline;
