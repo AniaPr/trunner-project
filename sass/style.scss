@@ -1,14 +1,16 @@
 body {
 	font-family: "Montserrat", sans-serif;
 	font-size: 14px;
+	max-width: 1320px;
 }
 
 /*Header*/
 .splash {
 	background-image: url(https://i.postimg.cc/9Xbdtfzy/pexels-riya-kumari-2737702-1.jpg);
 	background-size: cover;
-	height: 700px;
-	padding: 30px;
+	background-attachment: fixed;
+	padding: 30px 72px 72px;
+	height: 100vh;
 }
 
 .logo {
@@ -25,7 +27,7 @@ ul {
 .menu ul li {
 	text-transform: uppercase;
 	display: inline;
-	margin: 12px;
+	margin: 8px;
 }
 
 .menu ul li a {
@@ -56,22 +58,24 @@ ul {
 
 h1 {
 	text-transform: uppercase;
-	font-size: 75px;
+	font-size: 60px;
 	color: #ffffff;
+	margin-top: 24px;
 }
 
 .welcome {
 	font-family: "IBM Plex Serif", serif;
 	color: #ffffff;
-	font-size: 40px;
+	font-size: 36px;
+	margin-bottom: 0;
 }
+
+/*Services*/
 
 section {
 	padding: 50px;
 	text-align: center;
 }
-
-/*Services*/
 
 .section-title {
 	text-transform: uppercase;
