@@ -1,5 +1,6 @@
 body {
 	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
 }
 
 /*Header*/
@@ -59,13 +60,48 @@ h1 {
 	color: #ffffff;
 }
 
-.page-subtitle {
+.welcome {
 	font-family: "IBM Plex Serif", serif;
 	color: #ffffff;
 	font-size: 40px;
 }
 
+section {
+	padding: 50px;
+	text-align: center;
+}
+
 /*Services*/
+
+.section-title {
+	text-transform: uppercase;
+	font-size: 36px;
+	margin-bottom: 0;
+}
+
+.section-subtitle {
+	font-family: "IBM Plex Serif", serif;
+	font-size: 16px;
+	margin-bottom: 60px;
+	margin-top: 10px;
+}
+
+.section-subtitle,
+.services p,
+.portfolio p footer p {
+	color: #808080;
+}
+
+.services i {
+	color: #fed136;
+	font-size: 40px;
+	height: 80px;
+	width: 80px;
+	border: 3px solid #fed136;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.7;
+}
 
 /*Portfolio*/
 
