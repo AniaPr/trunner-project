@@ -113,18 +113,19 @@ section {
 	background-color: #f7f7f7;
 }
 
+.img {
+	font-size: 0;
+}
 .portfolio img {
-	width: 300px;
 	height: 300px;
+	width: 300px;
 }
 
 .box {
 	background-color: #ffffff;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	margin-bottom: 30px;
-	max-width: 300px;
+	display: inline-block;
+	width: 300px;
+	margin-bottom: 36px;
 }
 
 /*Footer*/
@@ -142,5 +143,6 @@ footer ul i {
 	width: 40px;
 	border-radius: 50%;
 	color: #ffffff;
+	text-align: center;
 	line-height: 40px;
 }
