@@ -10,7 +10,6 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 30px 72px 72px;
-	height: 100vh;
 }
 
 .logo {
@@ -77,6 +76,10 @@ section {
 	text-align: center;
 }
 
+.content {
+	padding: 30px;
+}
+
 .section-title {
 	text-transform: uppercase;
 	font-size: 36px;
@@ -118,7 +121,7 @@ section {
 }
 .portfolio img {
 	height: 300px;
-	width: 300px;
+	max-width: 300px;
 }
 
 .box {
@@ -130,13 +133,18 @@ section {
 
 /*Footer*/
 
-footer ul li {
+.footer {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.footer ul li {
 	display: inline;
 	font-size: 0;
 	margin: 3px;
 }
 
-footer ul i {
+.footer ul i {
 	font-size: 16px;
 	background-color: #222222;
 	height: 40px;
@@ -145,4 +153,42 @@ footer ul i {
 	color: #ffffff;
 	text-align: center;
 	line-height: 40px;
+}
+
+/*Media*/
+
+@media (max-width: 576px) {
+	.menu ul li {
+		display: flex;
+	}
+
+	.home {
+		margin-top: 48px;
+	}
+
+	.welcome {
+		font-size: 24px;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	.button {
+		transform: scale(0.7, 0.7);
+	}
+
+	.section-title {
+		font-size: 24px;
+	}
+
+	.section-subtitle {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 992px) {
+	.footer .row {
+		flex-direction: column-reverse;
+	}
 }
