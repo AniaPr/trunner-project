@@ -78,8 +78,10 @@ section {
 	text-align: center;
 }
 
-.content {
-	padding: 30px;
+.box {
+	padding: 12px;
+	display: flex;
+	flex-direction: column;
 }
 
 .section-title {
@@ -108,8 +110,10 @@ section {
 	width: 80px;
 	border: 3px solid #fed136;
 	border-radius: 50%;
-	text-align: center;
-	line-height: 1.7;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
 }
 
 /*Portfolio*/
@@ -119,18 +123,16 @@ section {
 }
 
 .img {
-	font-size: 0;
-}
-.portfolio img {
 	height: 300px;
-	max-width: 300px;
 }
 
-.box {
+img {
+	height: 100%;
+	width: 100%;
+}
+
+.content {
 	background-color: #ffffff;
-	display: inline-block;
-	width: 300px;
-	margin-bottom: 36px;
 }
 
 /*Footer*/
