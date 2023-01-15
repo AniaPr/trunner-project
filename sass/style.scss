@@ -1,212 +1,211 @@
 body {
-	font-family: "Montserrat", sans-serif;
-	font-size: 14px;
-	margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  margin: 0;
 }
 
 /*Header*/
 
 header {
-	background-image: url(https://i.postimg.cc/9Xbdtfzy/pexels-riya-kumari-2737702-1.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-	padding-top: 36px;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
+  background-image: url(https://i.postimg.cc/9Xbdtfzy/pexels-riya-kumari-2737702-1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 36px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .splash {
-	display: flex;
-	margin: auto;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .logo {
-	font-family: "Style Script", cursive;
-	color: #fed136;
-	font-size: 40px;
-	text-decoration: none;
+  font-family: 'Style Script', cursive;
+  color: #fed136;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 ul {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 .menu ul li {
-	text-transform: uppercase;
-	display: inline;
-	margin: 8px;
+  text-transform: uppercase;
+  display: inline;
+  margin: 8px;
 }
 
 .menu ul li a {
-	color: #ffffff;
-	text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .button {
-	width: 240px;
-	height: 65px;
-	background-color: #fed136;
-	text-decoration: none;
-	color: #ffffff;
-	text-transform: uppercase;
-	border-radius: 3%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  width: 240px;
+  height: 65px;
+  background-color: #fed136;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
-	text-transform: uppercase;
-	font-size: 60px;
-	color: #ffffff;
+  text-transform: uppercase;
+  font-size: 60px;
+  color: #ffffff;
 }
 
 .welcome {
-	font-family: "IBM Plex Serif", serif;
-	color: #ffffff;
-	font-size: 36px;
+  font-family: 'IBM Plex Serif', serif;
+  color: #ffffff;
+  font-size: 36px;
 }
 
 /*Services*/
 
 section {
-	padding: 50px;
-	text-align: center;
+  padding: 50px;
+  text-align: center;
 }
 
 .box {
-	padding: 12px;
-	display: flex;
-	flex-direction: column;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-title {
-	text-transform: uppercase;
-	font-size: 36px;
-	margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin-bottom: 0;
 }
 
 .section-subtitle {
-	font-family: "IBM Plex Serif", serif;
-	font-size: 16px;
-	margin-bottom: 60px;
-	margin-top: 10px;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 16px;
+  margin-bottom: 60px;
+  margin-top: 10px;
 }
 
 .section-subtitle,
 .services p,
 .portfolio p footer p {
-	color: #808080;
+  color: #808080;
 }
 
 .services i {
-	color: #fed136;
-	font-size: 40px;
-	height: 80px;
-	width: 80px;
-	border: 3px solid #fed136;
-	border-radius: 50%;
-	display: flex;
-	margin: auto;
-	justify-content: center;
-	align-items: center;
+  color: #fed136;
+  font-size: 40px;
+  height: 80px;
+  width: 80px;
+  border: 3px solid #fed136;
+  border-radius: 50%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 /*Portfolio*/
 
 .portfolio {
-	background-color: #f7f7f7;
+  background-color: #f7f7f7;
 }
 
 .img {
-	height: 300px;
+  height: 300px;
 }
 
 img {
-	height: 100%;
-	width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .content {
-	background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 /*Footer*/
 
 .footer {
-	padding-top: 0;
-	padding-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.inner-box {
+  display: flex;
 }
 
 .page-footer {
-	display: flex;
-}
-
-.footer .page-footer p {
-	display: inline-block;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer ul li {
-	display: inline;
-	font-size: 0;
-	margin: 3px;
+  display: inline;
+  font-size: 0;
+  margin: 3px;
 }
 
 .footer ul i {
-	font-size: 16px;
-	background-color: #222222;
-	height: 40px;
-	width: 40px;
-	border-radius: 50%;
-	color: #ffffff;
-	line-height: 40px;
+  font-size: 16px;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  line-height: 40px;
 }
 
 /*Media*/
 
 @media (max-width: 576px) {
-	.welcome {
-		font-size: 24px;
-	}
+  .welcome {
+    font-size: 24px;
+  }
 
-	.menu ul li {
-		display: flex;
-	}
+  .menu ul li {
+    display: flex;
+  }
 
-	h1 {
-		font-size: 40px;
-	}
+  h1 {
+    font-size: 40px;
+  }
 
-	.button {
-		transform: scale(0.7, 0.7);
-	}
+  .button {
+    transform: scale(0.7, 0.7);
+  }
 
-	.section-title {
-		font-size: 24px;
-	}
+  .section-title {
+    font-size: 24px;
+  }
 
-	.section-subtitle {
-		font-size: 16px;
-	}
+  .section-subtitle {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 992px) {
-	.footer .row {
-		flex-direction: column-reverse;
-	}
+  .footer .row {
+    flex-direction: column-reverse;
+  }
 
-	.footer {
-		.box {
-			padding: 0;
-		}
-
-		ul,
-		p {
-			margin: 12px;
-		}
-	}
+  .footer {
+    ul,
+    p {
+      margin: 12px;
+    }
+  }
 }
