@@ -1,17 +1,27 @@
 body {
 	font-family: "Montserrat", sans-serif;
 	font-size: 14px;
-	max-width: 1320px;
 	margin: 0;
 }
 
 /*Header*/
-.splash {
+
+header {
 	background-image: url(https://i.postimg.cc/9Xbdtfzy/pexels-riya-kumari-2737702-1.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	padding: 30px 36px 50px;
+	padding-top: 36px;
 	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.splash {
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
 }
 
 .logo {
@@ -36,14 +46,6 @@ ul {
 	text-decoration: none;
 }
 
-.home {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-top: 120px;
-}
-
 .button {
 	width: 240px;
 	height: 65px;
@@ -61,14 +63,12 @@ h1 {
 	text-transform: uppercase;
 	font-size: 60px;
 	color: #ffffff;
-	margin-top: 24px;
 }
 
 .welcome {
 	font-family: "IBM Plex Serif", serif;
 	color: #ffffff;
 	font-size: 36px;
-	margin-bottom: 0;
 }
 
 /*Services*/
@@ -142,6 +142,14 @@ img {
 	padding-bottom: 0;
 }
 
+.page-footer {
+	display: flex;
+}
+
+.footer .page-footer p {
+	display: inline-block;
+}
+
 .footer ul li {
 	display: inline;
 	font-size: 0;
@@ -155,23 +163,18 @@ img {
 	width: 40px;
 	border-radius: 50%;
 	color: #ffffff;
-	text-align: center;
 	line-height: 40px;
 }
 
 /*Media*/
 
 @media (max-width: 576px) {
-	.menu ul li {
-		display: flex;
-	}
-
-	.home {
-		margin-top: 48px;
-	}
-
 	.welcome {
 		font-size: 24px;
+	}
+
+	.menu ul li {
+		display: flex;
 	}
 
 	h1 {
@@ -194,5 +197,16 @@ img {
 @media (max-width: 992px) {
 	.footer .row {
 		flex-direction: column-reverse;
+	}
+
+	.footer {
+		.box {
+			padding: 0;
+		}
+
+		ul,
+		p {
+			margin: 12px;
+		}
 	}
 }
